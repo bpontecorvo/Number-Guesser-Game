@@ -11,9 +11,7 @@ const generateTarget = () => {
 const compareGuesses = (humanGuess, computerGuess, secretTarget) => {
   if ((Math.abs(computerGuess - secretTarget)) < (Math.abs(humanGuess-secretTarget))) {
     return false;
-  } /*else if (computerGuess = humanGuess) {
-      return true; }*/
-   else ((Math.abs(computerGuess - secretTarget)) <= (Math.abs(humanGuess-secretTarget)))
+  } else ((Math.abs(computerGuess - secretTarget)) <= (Math.abs(humanGuess-secretTarget)))
   {
     return true;
   }
